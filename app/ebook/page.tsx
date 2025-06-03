@@ -65,8 +65,8 @@ export default function Page() {
           </section>
 
           <section className="relative bg-[#161F17] flex flex-col h-[476px] gap-4 w-screen items-center">
-          <h1 className="text-white text-[40px] font-bold my-8 capitalize">What you'll learn</h1>
-            {questions.map((question,index) => <Link href={""} className="flex items-center gap-2.5 w-[670px] h-[64px] rounded-[14.35px] bg-[#2E2E2E6B] py-4 px-[35px]">
+          <h1 className="text-white text-[40px] font-bold my-8 capitalize">What you&apoos;ll learn</h1>
+            {questions.map((question,index) => <Link key={index} href={""} className="flex items-center gap-2.5 w-[670px] h-[64px] rounded-[14.35px] bg-[#2E2E2E6B] py-4 px-[35px]">
               <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle cx="12" cy="12" r="10" stroke="#E2E2E2" stroke-width="2" />
                 <path d="M8 12L11 15L16 9" stroke="#E2E2E2" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
@@ -77,7 +77,7 @@ export default function Page() {
 
              <section className="relative py-[40px] flex flex-col bg-[#101010] justify-center items-center text-white">
           
-                <h1 className="text-[40px] font-bold my-[40px]">Client's <span className="span-green">Review</span></h1>
+                <h1 className="text-[40px] font-bold my-[40px]">Client&apos;s <span className="span-green">Review</span></h1>
   
                 <div className="flex flex-row my-8 gap-4 relative">
 

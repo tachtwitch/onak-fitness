@@ -8,7 +8,7 @@ export default function ContactUs(){
     const [email, setEmail] = useState('');
     const [message, setMessage] = useState('');
   
-    const handleSubmit = (e) => {
+    const handleSubmit = (e:React.FormEvent<HTMLFormElement>) => {
       e.preventDefault();
       // Handle form submission logic here
       console.log({
