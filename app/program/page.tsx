@@ -1,6 +1,5 @@
-import Link from "next/link";
 import Image from "next/image";
-import Plan, { plan } from "../ui/components/plans_box";
+import Plan from "../ui/components/plans_box";
 import AnakButton from "../ui/components/anak_button";
 
 export default function Program(){

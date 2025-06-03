@@ -44,7 +44,7 @@ export default function Home() {
               <div className="flex flex-col mt-40 gap-8 w-[580px] h-[220px]">
 
                 <h1 className=" text-7xl font-bold text-white ">Build <span className="span-green">different</span></h1>
-                <h3 className="text-white font-medium text-xl">Together, We'll transform your body with custom workout plans and personalized coaching that get results </h3>
+                <h3 className="text-white font-medium text-xl">Together, We&apos;ll transform your body with custom workout plans and personalized coaching that get results </h3>
                 <Link href={""} className="w-[268px] h-[52px] btn-gradient">Start Your Journey</Link>
 
               </div>
@@ -120,22 +120,22 @@ export default function Home() {
 
                   <li>
                     <p className="ul-header-text">Workout plans made for you</p>
-                    <p className="ul-caption">Whatever your experience level I'll create the plan 
+                    <p className="ul-caption">Whatever your experience level I&apos;ll create the plan 
                     fit for you to win!</p>
                   </li>
                   <li>
                     <p className="ul-header-text">Your own meal plan</p>
-                    <p className="ul-caption">You'll get a customized meal plan based on your 
+                    <p className="ul-caption">You&apos;ll get a customized meal plan based on your 
                     specific fitness goals</p>
                   </li>
                   <li>
                     <p className="ul-header-text">We track your progress together</p>
-                    <p className="ul-caption">Weekly check-ins to make sure that you're on 
+                    <p className="ul-caption">Weekly check-ins to make sure that you&apos;re on 
                     track and progressing</p>
                   </li>
                   <li>
                     <p className="ul-header-text">Continuous communication</p>
-                    <p className="ul-caption">Anytime, you'll have a direct place to chat with ya boy!</p>
+                    <p className="ul-caption">Anytime, you&apos;ll have a direct place to chat with ya boy!</p>
                   </li>
                 </ul>
               </div>
@@ -200,13 +200,13 @@ export default function Home() {
                       I lost <span className="span-green">23kg</span> in just <span className="span-green">7 months</span></p>
 
                       <p>This experience taught me what works and 
-                      what doesn't in the real world. I've since dedicated 
+                      what doesn&apos;t in the real world. I&apos;ve since dedicated 
                       to helping other achieve similar transformations 
                       through personalized coaching</p>
 
                       <p>I believe in sustainable approaches to fitness 
                       that create lasting results - <span className="span-green">no quick fixes</span>, 
-                      just proven methods that I've used myself and 
+                      just proven methods that I&apos;ve used myself and 
                       with dozens of successful clients</p>
                   </div>
                 </div>
@@ -215,7 +215,7 @@ export default function Home() {
 
               <section className="relative py-[40px] flex flex-col bg-[#101010] justify-center items-center text-white">
               
-                    <h1 className="text-[40px] font-bold my-[40px]">Client's <span className="span-green">Review</span></h1>
+                    <h1 className="text-[40px] font-bold my-[40px]">Client&apos;s <span className="span-green">Review</span></h1>
       
                     <div className="flex flex-row my-8 gap-4 relative">
     
